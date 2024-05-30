@@ -1,10 +1,80 @@
 body{
-    background-color: grey;
+    background-color: rgb(24, 20, 44);
 }
-.head{
 
- margin-left: 48%;
+h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-size: 600%;
+    color: rgb(251, 251, 198);
+    text-align: center;
+    
 }
-header{
-    background: rgba(0, 0, 0, 0.2)
+
+h6{
+    font-family: "Wix Madefor Display", sans-serif;
+    font-weight: 400;
+    font-size: 130%;
+    text-align: center;
+    color: rgba(255, 255, 189, 0.553);
+    margin-top: -2%;
 }
+
+button {
+    color: rgb(251, 251, 198);
+    background-color: #526b98;
+    font-size: 25px;
+    border-radius: 28px;
+    padding: 15px 50px;
+    letter-spacing: 0px;
+    cursor: pointer;
+    font-family: "Wix Madefor Display", sans-serif;
+    
+}
+button:hover {
+    color: #1b3b77;
+    background-color: rgb(252, 252, 220);
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.gg-menu-grid-o {
+    box-sizing: border-box;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 40px;
+    height: 40px;
+    color: rgb(222, 254, 254);
+    z-index: 999;
+    margin-top: 32%;
+    margin-left: 98%;
+
+}.gg-menu-grid-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    box-shadow:
+    0 6px 0,
+    6px 6px 0,
+    12px 6px 0,
+    6px 12px 0,
+    12px 12px 0,
+    6px 0 0,
+    12px 0 0,
+    0 12px 0
+    ;
+    border-radius: 22px;
+} 
