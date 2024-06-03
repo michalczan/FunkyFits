@@ -4,11 +4,13 @@ body{
 
 h1{
     font-family: "Playfair Display", serif;
-    font-weight: 800;
-    font-size: 600%;
+    font-size: 100px;
+    color: transparent;
+    text-shadow: 0 0 8px rgb(251, 251, 198);
+    z-index: 99999;
+    transition: 2s;
     color: rgb(251, 251, 198);
     text-align: center;
-    
 }
 
 h6{
@@ -45,36 +47,47 @@ button:hover {
     transform: translate(-50%, -50%);
 }
 
+#blur:hover{
+    font-size: 100px;
+    color: transparent;
+    text-shadow: 0 0 8px rgb(251, 251, 198);
+    z-index: 99999;
+    transition: 1s;
+}
 
 
-.gg-menu-grid-o {
-    box-sizing: border-box;
-    display: block;
-    transform: scale(var(--ggs,1));
-    width: 40px;
-    height: 40px;
-    color: rgb(222, 254, 254);
-    z-index: 999;
-    margin-top: 32%;
-    margin-left: 98%;
 
-}.gg-menu-grid-o::before {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    background: currentColor;
-    box-shadow:
-    0 6px 0,
-    6px 6px 0,
-    12px 6px 0,
-    6px 12px 0,
-    12px 12px 0,
-    6px 0 0,
-    12px 0 0,
-    0 12px 0
-    ;
-    border-radius: 22px;
-} 
+
+
+    .topnav {
+        overflow:hidden;
+        background-color: #33333300;
+        z-index: 99999;
+       font-family: "Wix Madefor Display", sans-serif;
+    }
+    
+    .topnav a {
+        float: right;
+        color: rgb(251, 251, 198);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: rgb(251, 251, 198);
+        color: black;
+        filter: blur(1.5px);
+        z-index: -99999;
+        transition: 1.2s;
+        border-radius: 27%;
+    }
+    
+    .topnav a.active {
+        background-color: #526b98;
+        color: white;
+        border-radius: 27%;
+    }
+
+
