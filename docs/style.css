@@ -13,6 +13,17 @@ h1{
     text-align: center;
 }
 
+h2{
+    font-family: "Playfair Display", serif;
+    font-size: 100px;
+    color: transparent;
+    text-shadow: 0 0 8px rgb(251, 251, 198);
+    z-index: 99999;
+    transition: 2s;
+    color: rgb(251, 251, 198);
+    text-align: center;
+}
+
 h6{
     font-family: "Wix Madefor Display", sans-serif;
     font-weight: 400;
@@ -36,6 +47,8 @@ button {
 button:hover {
     color: #1b3b77;
     background-color: rgb(252, 252, 220);
+    transition: 1.2s;
+    transition-property: all;
 }
 
 .center{
@@ -63,7 +76,7 @@ button:hover {
         overflow:hidden;
         background-color: #33333300;
         z-index: 99999;
-       font-family: "Wix Madefor Display", sans-serif;
+        font-family: "Wix Madefor Display", sans-serif;
     }
     
     .topnav a {
@@ -88,6 +101,15 @@ button:hover {
         background-color: #526b98;
         color: white;
         border-radius: 27%;
+    }
+
+    .clanocek{
+        width: 42%;
+        height: 31%;
+        margin-top: 10%;
+        font-weight: 400;
+        font-size: 180%;
+        margin-left: 3%;
     }
 
 
