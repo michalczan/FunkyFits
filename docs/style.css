@@ -103,21 +103,19 @@ button:hover {
         border-radius: 27%;
     }
     
-    <<!buttons!>>
     .ig{
         width: 15px;
     }
     
     .fa-instagram {
-      
         background: rgb(251, 251, 198);
         color: #526b98;
-
         position: relative;
         top: 10px;
-      
+        left: -3.5%;
     }
-       
+
+
     .fa {
         padding: 31px;
         font-size: 30px;
@@ -126,33 +124,33 @@ button:hover {
         text-decoration: none;
         border-radius: 50%;
         margin-left: 92.9vh;
-
-     
-      }
-      .fa:hover {
+    }
+    
+    .fa:hover {
         opacity: 0.7;
-      }
-      .ig-btn{
+    }
+    .ig-btn{
         height: 10%;
         width: 5%;
-margin-left: 47%;
-position: absolute;
+        margin-left: 47%;
+        position: absolute;
         background: #526b98;
         border-radius: 50%;
         box-shadow: 4px 11px 58px 3px rgba(0,0,0,0.7);
         -webkit-box-shadow: 4px 11px 58px 3px rgba(0,0,0,0.7);
         -moz-box-shadow: 4px 11px 58px 3px rgba(0,0,0,0.7);
-     
-      
-      }
-      .fa-google{
+    }
+    
+    .fa-google{
         background: rgb(251, 251, 198);
         color: #526b98;
     margin-top: 10px;
-        position: relative;
+        position:relative;
         top: 10px;
         transition: background-color 0.5s ease-in 0.3s;
+        left: -48%;
     }
+
 
 
 
