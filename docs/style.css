@@ -102,10 +102,12 @@ button:hover {
         color: white;
         border-radius: 27%;
     }
+    
     <<!buttons!>>
     .ig{
         width: 15px;
     }
+    
     .fa-instagram {
       
         background: rgb(251, 251, 198);
@@ -146,12 +148,12 @@ position: absolute;
       .fa-google{
         background: rgb(251, 251, 198);
         color: #526b98;
-margin-top: 10px;
+    margin-top: 10px;
         position: relative;
         top: 10px;
         transition: background-color 0.5s ease-in 0.3s;
-      }
-   
+    }
+
 
 
     .clanocek{
@@ -159,7 +161,7 @@ margin-top: 10px;
         height: 31%;
         margin-top: 10%;
         font-weight: 400;
-        font-size: 180%;
+        font-size: 160%;
         margin-left: 3%;
     }
 
