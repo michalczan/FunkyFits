@@ -195,15 +195,15 @@ button:hover {
 
     .pants{
         width: 250px;
-        height: 270px;
+        height: 320px;
         background-color: rgb(24, 20, 44);
         
         
-        margin: 0;
+ 
         position: absolute;
         left: 35%;
         top: 66%;
-        -ms-transform: translate(-50%, -50%);
+      
         transform: translate(-50%, -50%);
     }
 
@@ -224,7 +224,7 @@ button:hover {
 
     .image-box {
         width: 230px;
-        height: 240px;
+        height: 280px;
         background-color: rgb(24, 20, 44);
         text-align: center;
     }
