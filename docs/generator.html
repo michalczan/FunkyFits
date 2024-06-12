@@ -31,46 +31,133 @@
     <div class="topnav">
       <a href="index.html">Home</a>
       <a href="inventory.html">Inventory</a>
-
       <a href="contact.html">Contact</a>
       <a href="privacy.html">Privacy Policy</a>
       <a href="termsofuse.html">Terms Of Use</a>
       <a href="about.html">About</a>
     </div>
     <!--div-stvorce-->
-<<<<<<< HEAD
-  <div class="divyall">
-    <div class="hats">
-      <h4 style="text-align: center;">In the making...</h4>
+
+    <div class="hats" id="hats">
+      <img
+        src="ciapky/IMG_0078.jpeg"
+        alt="Image"
+        id="hats-to-change"
+        class="image-fit-ciapka"
+        style="mix-blend-mode: lighten; height: fit-content;"
+      />
     </div>
 
-
-    <div class="tops">
-      <div class="image-box">
-        <img src="topy/dres_dlhy_lotto.jpg" alt="Image" id="tops-to-change" class="image-fit" style="mix-blend-mode:lighten;">
+      <div class="tops" id="tops">
+        <div class="image-box">
+          <img
+            src="topy/dres_dlhy_lotto.jpg"
+            alt="Image"
+            id="tops-to-change"
+            class="image-fit"
+            style="mix-blend-mode: lighten"
+          />
+        </div>
       </div>
-    </div>
 
-
-    <div class="pants">
-      <img src="nohavice/manchestraky_mac.jpg" alt="Image" id="image-to-change" class="image-fit" style="mix-blend-mode:lighten; height:fit-content;">
-    </div>
-
-    <div class="shoes">
-      <h4 style="text-align: center;">In the making...</h4>
-    
-      <button class="button-52" role="button">Generate a Fit!</button>
-    </div>
-
-  </div>
-=======
-    <section class="layout">
-      <div class="hat">
+      <div class="pants" id="pants">
+        <img
+          src="nohavice/manchestraky_mac.jpg"
+          alt="Image"
+          id="image-to-change"
+          class="image-fit"
+          style="mix-blend-mode: lighten; height: fit-content"
+        />
       </div>
-      <div class="top"></div>
-      <div class="bottom"></div>
-      <div class="boots"></div>
-    </section>
->>>>>>> 41aa337bee03189979061ad1d75864182028afb3
+
+      <div class="shoes" id="boots">
+        <img
+          src="boty/IMG_0076.jpeg"
+          alt="Image"
+          id="boots-to-change"
+          class="image-fit"
+          style="mix-blend-mode: lighten; height: fit-content"
+        />
+      </div>
+      <button class="button-52" role="button" onclick="generateFit()">
+        Generate a Fit!
+      </button>
+    </div>
+
+    <script>
+      // Arrays obrazkov
+      const topsImages = [
+        "topy/dres_dlhy_lotto.jpg",
+        "topy/ibiza_bikeweek.jpg",
+        "topy/polo_brazilia.jpg",
+        "topy/tricko_ala_lubos_blaha.jpg",
+        "topy/mikina_siva_kapucna.jpg",
+        "topy/flanelka_modro_hneda.jpg",
+        "topy/kosela_kratka_zvisle_pasiky.jpg",
+        "topy/kosela_kratka_indicka.jpg",
+        "topy/champion_sveter.jpg",
+        "topy/biele_tielko.jpg",
+        "topy/adidas_dres_cerveny.jpg",
+        "topy/polo_pasikave.jpg",
+        "topy/kosela_dlha_zelena.jpg",
+        "topy/kosela_kratka_stvorceky_modra.jpg",
+        "topy/kosela_kratka_zvisle_pasiky_zelene.jpg",
+        "topy/mikina_monster.jpg",
+        "topy/tricko_iron_maiden.jpg",
+        "topy/tricko_peru.jpg",
+        "topy/vangog.jpg",
+      ];
+
+      const pantsImages = [
+        "nohavice/manchestraky_mac.jpg",
+        "nohavice/kratasy_cervene_retro.jpg",
+        "nohavice/rifle_jepp.jpg",
+        "nohavice/sustaky_adidas.jpg",
+        "nohavice/rifle_cierne.jpg",
+        "nohavice/teplaky_mike.jpg",
+        "nohavice/rifle_levis.jpg",
+        "nohavice/nohavice_turistika_brugi.jpg",
+        "nohavice/kratasy_polo_sport.jpg",
+        "nohavice/nohavice_lezecke.jpg",
+        "nohavice/teplaky_random.jpg",
+      ];
+      const bootsImages = [
+        "boty/IMG_0074.jpeg",
+        "boty/IMG_0075.jpeg",
+        "boty/IMG_0076.jpeg",
+      ];
+
+      const hatsImages = [
+        "ciapky/IMG_0078.jpeg",
+        "ciapky/IMG_0079.jpeg",
+        "ciapky/IMG_0080.jpeg",
+        "ciapky/IMG_0081.jpeg",
+        "ciapky/IMG_0082.jpeg",
+      ];
+
+      let topsIndex = 0;
+      let pantsIndex = 0;
+      let bootsIndex = 0;
+      let hatsIndex = 0;
+
+      function generateFit() {
+        // Zmení TOP
+        topsIndex = (topsIndex + 1) % topsImages.length;
+        document.getElementById("tops-to-change").src = topsImages[topsIndex];
+
+        // Zmení pants
+        pantsIndex = (pantsIndex + 1) % pantsImages.length;
+        document.getElementById("image-to-change").src =
+          pantsImages[pantsIndex];
+
+          // Zmení boty
+        bootsIndex = (bootsIndex + 1) % bootsImages.length;
+        document.getElementById("boots-to-change").src = bootsImages[bootsIndex];
+
+         // Zmení ciapky
+        hatsIndex = (hatsIndex + 1) % hatsImages.length;
+        document.getElementById("hats-to-change").src = hatsImages[bootsIndex];
+      }
+    </script>
   </body>
 </html>

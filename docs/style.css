@@ -180,20 +180,7 @@ button:hover {
         z-index: 99999;
     }
 
-    .hats{
-        color: antiquewhite;
-        font-size: 90%;
-        width: 250px;
-        height: 120px;
-        background-color: rgb(24, 20, 44);
-        
-        margin: 0;
-        position: absolute;
-        left: 35%;
-        top: 16%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
+
 
     .tops{
         color: antiquewhite;
@@ -212,7 +199,7 @@ button:hover {
 
     .pants{
         width: 250px;
-        height: 320px;
+        height: 360px;
         background-color: rgb(24, 20, 44);
         
         position: absolute;
@@ -221,21 +208,7 @@ button:hover {
         transform: translate(-50%, -50%);
     }
 
-    .shoes{
-        color: antiquewhite;
-        font-size: 90%;
-        width: 250px;
-        height: 140px;
-        background-color: rgb(24, 20, 44);
-        
-        margin: 0;
-        position: absolute;
-        left: 35%;
-        top: 88.2%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
-
+ 
     .image-box {
         width: 230px;
         height: 280px;
@@ -291,8 +264,8 @@ button:hover {
     touch-action: manipulation;
     border-radius: 0%;
     display: flex;
-    margin-left: 300%;
-    bottom: 300%;
+    margin-left: 50%;
+    bottom: 40%;
     z-index: 9999999999999;
 }
 
@@ -374,14 +347,11 @@ button:hover {
   }
   
   .btn:hover {
-    background-color: #aac7db;
+    background-color: rgb(255, 240, 220);
     transition-duration: 0.5s;
   }
   
-  .btn.active {
-    background-color: rgb(255, 240, 220);
-    color: rgb(71, 42, 42);
-  }
+
 
   /*---------------------------*/
 
@@ -483,25 +453,12 @@ button:hover {
         transform: translate(-50%, -50%);
     }
 
-    .pants{
-        width: 250px;
-        height: 270px;
-        background-color: rgb(24, 20, 44);
-        
-        
-        margin: 0;
-        position: absolute;
-        left: 35%;
-        top: 66%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
-
+    
     .shoes{
         color: antiquewhite;
         font-size: 90%;
         width: 250px;
-        height: 140px;
+        height: 240px;
         background-color: rgb(24, 20, 44);
         
         margin: 0;
@@ -526,5 +483,30 @@ button:hover {
         object-fit: cover;
     }
 
+    .hats{
+        color: antiquewhite;
+        font-size: 90%;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(24, 20, 44);
+        object-fit: cover;
+        
+        margin: 0;
+        position: absolute;
+        left: 35%;
+        top: 16%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
 
+    .image-fit-ciapka{
+        width: 150px;
+        margin-left: 22%;
+        margin-top: 12%;
+    }
 
+    .people{
+    float:none;
+    width: 40%;
+    display:block;
+    }
