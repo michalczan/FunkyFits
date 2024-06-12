@@ -334,12 +334,12 @@ button:hover {
   /* Add padding BETWEEN each column */
   
   .row > .column {
-    padding: 8px;
+    
   }
   
   /* Create three equal columns that floats next to each other */
   .column {
-    float: left;
+    float:right;
     width: 30%;
     display: none; /* Hide all elements by default */
   }
@@ -354,7 +354,7 @@ button:hover {
   /* Content */
   .content {
     
-    padding: 10px;
+    padding: px;
     width: 50%;
     mix-blend-mode: lighten;
   }
@@ -379,7 +379,7 @@ button:hover {
   }
   
   .btn.active {
-    background-color: #ffce2f;
+    background-color: rgb(255, 240, 220);
     color: rgb(71, 42, 42);
   }
 
