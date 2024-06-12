@@ -198,12 +198,9 @@ button:hover {
         height: 320px;
         background-color: rgb(24, 20, 44);
         
-        
- 
         position: absolute;
         left: 35%;
         top: 66%;
-      
         transform: translate(-50%, -50%);
     }
 
@@ -234,6 +231,10 @@ button:hover {
         width: 250px;
         height: 250px;
         object-fit: cover;
+    }
+
+    .makeoutfit{
+        
     }
 
 
