@@ -24,6 +24,17 @@ h2{
     text-align: center;
 }
 
+h2{
+    font-family: "Playfair Display", serif;
+    font-size: 100px;
+    color: transparent;
+    text-shadow: 0 0 8px rgb(251, 251, 198);
+    z-index: 99999;
+    transition: 2s;
+    color: rgb(251, 251, 198);
+    text-align: center;
+}
+
 h6{
     font-family: "Wix Madefor Display", sans-serif;
     font-weight: 400;
@@ -49,6 +60,8 @@ button:hover {
     background-color: rgb(252, 252, 220);
     transition: 1.2s;
     transition-property: all;
+    transition: 1.2s;
+    transition-property: all;
 }
 
 .center{
@@ -72,10 +85,12 @@ button:hover {
 
 
 
+
     .topnav {
         overflow:hidden;
         background-color: #33333300;
         z-index: 99999;
+        font-family: "Wix Madefor Display", sans-serif;
         font-family: "Wix Madefor Display", sans-serif;
     }
     
@@ -377,3 +392,139 @@ button:hover {
     font-family: "Wix Madefor Display", sans-serif;
     font-weight: 200;
   }
+    
+    .ig{
+        width: 15px;
+    }
+    
+    .fa-instagram {
+        background: rgb(251, 251, 198);
+        color: #526b98;
+        position: relative;
+        top: 10px;
+        left: -3.5%;
+    }
+
+
+    .fa {
+        padding: 31px;
+        font-size: 30px;
+        width: 10px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin-left: 92.9vh;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .ig-btn{
+        height: 10%;
+        width: 5%;
+        margin-left: 47%;
+        position: absolute;
+        background: #526b98;
+        border-radius: 50%;
+        box-shadow: 4px 11px 58px 3px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 4px 11px 58px 3px rgba(0,0,0,0.7);
+        -moz-box-shadow: 4px 11px 58px 3px rgba(0,0,0,0.7);
+    }
+    
+    .fa-google{
+        background: rgb(251, 251, 198);
+        color: #526b98;
+    margin-top: 10px;
+        position:relative;
+        top: 10px;
+        transition: background-color 0.5s ease-in 0.3s;
+        left: -48%;
+    }
+
+
+
+
+    .clanocek{
+        width: 42%;
+        height: 31%;
+        margin-top: 10%;
+        font-weight: 400;
+        font-size: 160%;
+        margin-left: 3%;
+    }
+
+    .hats{
+        color: antiquewhite;
+        font-size: 90%;
+        width: 250px;
+        height: 120px;
+        background-color: rgb(24, 20, 44);
+        
+        margin: 0;
+        position: absolute;
+        left: 35%;
+        top: 16%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .tops{
+        color: antiquewhite;
+        font-size: 90%;
+        width: 250px;
+        height: 270px;
+        background-color: rgb(24, 20, 44);
+        
+        margin: 0;
+        position: absolute;
+        left: 35%;
+        top: 37%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .pants{
+        width: 250px;
+        height: 270px;
+        background-color: rgb(24, 20, 44);
+        
+        
+        margin: 0;
+        position: absolute;
+        left: 35%;
+        top: 66%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .shoes{
+        color: antiquewhite;
+        font-size: 90%;
+        width: 250px;
+        height: 140px;
+        background-color: rgb(24, 20, 44);
+        
+        margin: 0;
+        position: absolute;
+        left: 35%;
+        top: 88.2%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .image-box {
+        width: 230px;
+        height: 240px;
+        background-color: rgb(24, 20, 44);
+        text-align: center;
+    }
+
+    .image-fit {
+        
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+
+
+
